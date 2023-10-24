@@ -1,7 +1,21 @@
 h1{
     background-color: burlywood;
+    padding: 10px;
+    margin: 5px;
 }
 
 p{
+    /*be sure to add solid or it will not add a border*/
+    border: 2px solid black;
     background-color: blanchedalmond;
+}
+
+.paragraph{
+    /*this creates a width so it does not stretch across the user's screen*/
+    width: 250px;
+}
+
+.secondp{
+    /*makes the text go in the middle*/
+    margin: 0 auto;
 }
